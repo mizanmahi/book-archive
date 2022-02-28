@@ -1,0 +1,44 @@
+body {
+   background: rgb(17, 24, 39);
+}
+
+:root {
+   --color: #6366f1;
+   --light: rgb(55, 65, 81);
+   --secondary: #9ca3af;
+}
+
+#basic-addon2 {
+   background: var(--color);
+}
+
+#basic-addon2:hover {
+   filter: brightness(90%);
+}
+
+.title {
+   color: var(--secondary);
+}
+i {
+   color: var(--color);
+}
+
+#card {
+   background: rgb(31 38 51);
+   flex: 0;
+   border: 1px solid var(--light) !important;
+}
+
+.text-color {
+   color: var(--color) !important;
+}
+
+#loadMoreBtn {
+   color: var(--color) !important;
+   background: rgb(17, 24, 39);
+   border: 1px solid var(--light);
+}
+
+#myName {
+   color: var(--color) !important;
+}
